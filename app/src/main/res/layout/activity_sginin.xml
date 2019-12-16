@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            style="@style/pagesignintextviw1"
+            android:layout_marginHorizontal="100dp"
+            android:textColor="#111111"
+            android:textStyle="bold"
+
+            >
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="200dp">
+        <TextView
+            style="@style/pagesignintextviw2"
+            android:textColor="#111111"
+            android:textStyle="bold"
+
+            >
+        </TextView>
+        <EditText
+            android:id="@+id/edittext1"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+
+            >
+        </EditText>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="280dp">
+        <TextView
+            style="@style/pagesignintextviw2"
+            android:text="password:"
+            android:textColor="#111111"
+            android:textStyle="bold"
+            >
+        </TextView>
+        <EditText
+            android:id="@+id/edittext2"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:password="true"
+
+            >
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="420dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/login"
+            style="@style/pagesigininbutton"
+            android:layout_marginLeft="150dp"
+            ></Button>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

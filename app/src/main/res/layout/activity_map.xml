@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#5b5a55">
+
+        <Button
+            android:id="@+id/a1"
+            style="@style/Button2"
+
+            android:layout_marginHorizontal="270dp"
+            android:layout_marginVertical="20dp"
+            />
+
+        <Button
+            android:id="@+id/a2"
+            style="@style/Button3"
+
+            android:layout_marginHorizontal="270dp"
+            android:layout_marginVertical="115dp"
+            />
+
+        <Button
+            android:id="@+id/a3"
+            style="@style/Button4"
+
+            android:layout_marginHorizontal="270dp"
+            android:layout_marginVertical="220dp"
+            />
+
+        <Button
+            android:id="@+id/a4"
+            style="@style/Button5"
+
+            android:layout_marginHorizontal="270dp"
+            android:layout_marginVertical="325dp"
+            />
+
+        <Button
+            android:id="@+id/b1"
+            style="@style/Buttonb1"
+
+            android:layout_marginHorizontal="95dp"
+            android:layout_marginVertical="20dp"
+            />
+
+        <Button
+            android:id="@+id/b2"
+
+            style="@style/Buttonb2"
+
+            android:layout_marginHorizontal="95dp"
+            android:layout_marginVertical="115dp"
+            />
+
+        <Button
+            android:id="@+id/b3"
+
+            style="@style/Buttonb3"
+
+            android:layout_marginHorizontal="95dp"
+            android:layout_marginVertical="220dp"
+            />
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:text="B4"
+
+            android:layout_marginHorizontal="95dp"
+            android:layout_marginVertical="325dp"
+            />
+
+
+
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/parking1"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

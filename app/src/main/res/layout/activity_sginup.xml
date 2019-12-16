@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+
+    <TextView
+        style="@style/pagesignuptextviw1"
+        android:textColor="#111111"
+        android:textStyle="bold"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/fn"
+            style="@style/pagesiginupdittext1" />
+
+        <EditText
+            android:id="@+id/ln"
+            style="@style/pagesiginupdittext2" />
+        <EditText
+            android:id="@+id/ph"
+            style="@style/pagesiginupdittext3" />
+        <EditText
+            android:id="@+id/email"
+            style="@style/pagesiginupdittext4"/>
+        <EditText
+            android:id="@+id/pass"
+            style="@style/pagesiginupdittext5"/>
+        <EditText
+            android:id="@+id/cnpass"
+            style="@style/pagesiginupdittext6"/>
+
+        <Button
+            android:id="@+id/s"
+            style="@style/pagesigininbutton"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="150dp"
+
+
+            android:layout_marginVertical="50dp" />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

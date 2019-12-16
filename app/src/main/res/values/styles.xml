@@ -1,0 +1,240 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+
+    </style>
+
+    <style name="titlestyle">
+
+        <item name ="android:layout_width">match_parent</item>
+        <item name ="android:layout_height">20dp</item>
+        <item name ="android:background">@color/colorPrimary</item>
+
+    </style>
+    <style name="spinner1">
+
+        <item name ="android:layout_width">100dp</item>
+        <item name ="android:layout_height">100dp</item>
+        <item name ="android:entries">@array/car_brand</item>
+        <item name ="android:prompt">@string/brand_prompt</item>
+        <item name ="android:background">@color/spiner</item>
+
+
+    </style>
+    <style name="spinner2">
+
+        <item name ="android:layout_width">100dp</item>
+        <item name ="android:layout_height">100dp</item>
+        <item name ="android:entries">@array/car_model</item>
+        <item name ="android:spinnerMode">dialog</item>
+        <item name ="android:splitMotionEvents">true</item>
+        <item name ="android:background">@color/spiner</item>
+
+    </style>
+
+    <style name="edittxt1">
+
+        <item name ="android:layout_width">match_parent</item>
+        <item name ="android:layout_height">69dp</item>
+        <item name ="android:hint">palets</item>
+        >
+
+
+    </style>
+    <style name="edittxt2">
+
+        <item name ="android:layout_width">match_parent</item>
+        <item name ="android:layout_height">69dp</item>
+        <item name ="android:hint">color</item>
+        >
+    </style>
+
+    <style name="Button">
+
+        <item name ="android:layout_width">53dp</item>
+        <item name ="android:layout_height">50dp</item>
+        <item name ="android:layout_marginLeft">170dp</item>
+        <item name ="android:layout_marginTop">50dp</item>
+        <item name ="android:background">@color/colorPrimary</item>
+
+
+
+
+    </style>
+    <style name="text">
+
+        <item name ="android:layout_width">wrap_content</item>
+        <item name ="android:layout_height">wrap_content</item>
+        <item name ="android:text">@string/brand_prompt</item>
+        <item name ="android:textColor">@color/colorPrimaryDark</item>
+        <item name ="android:textStyle">bold</item>
+        <item name ="android:textSize">100dp</item>
+        <item name ="android:layout_centerVertical">true</item>
+        <item name ="android:layout_centerHorizontal">true</item>
+
+
+        >
+    </style>
+
+    <style name="image">
+
+        <item name ="android:layout_width">wrap_content</item>
+        <item name ="android:layout_height">wrap_content</item>
+
+        <item name ="android:layout_centerInParent">true</item>
+
+
+
+    </style>
+    <style name="Button2">
+
+        <item name ="android:layout_width">60dp</item>
+        <item name ="android:layout_height">50dp</item>
+        <item name ="android:text">A1</item>
+
+    </style>
+
+    <style name="Button3">
+        <item name ="android:layout_width">60dp</item>
+        <item name ="android:layout_height">50dp</item>
+        <item name ="android:text">A2</item>
+    </style>
+    <style name="Button4">
+        <item name ="android:layout_width">60dp</item>
+        <item name ="android:layout_height">50dp</item>
+        <item name ="android:text">A3</item>
+    </style>
+    <style name="Button5">
+        <item name ="android:layout_width">60dp</item>
+        <item name ="android:layout_height">50dp</item>
+        <item name ="android:text">A4</item>
+    </style>
+    <style name="Buttonb1">
+        <item name ="android:layout_width">60dp</item>
+        <item name ="android:layout_height">50dp</item>
+        <item name ="android:text">B1</item>
+    </style>
+    <style name="Buttonb2">
+        <item name ="android:layout_width">60dp</item>
+        <item name ="android:layout_height">50dp</item>
+        <item name ="android:text">B2</item>
+    </style>
+    <style name="Buttonb3">
+        <item name ="android:layout_width">60dp</item>
+        <item name ="android:layout_height">50dp</item>
+        <item name ="android:text">B3</item>
+    </style>
+    <style name="Buttonb4">
+        <item name ="android:layout_width">60dp</item>
+        <item name ="android:layout_height">50dp</item>
+        <item name ="android:text">B4</item>
+    </style>
+
+    <style name="Buttonbsignup">
+        <item name ="android:layout_width">wrap_content</item>
+        <item name ="android:layout_height">wrap_content</item>
+        <item name ="android:text">SGIN UP</item>
+
+
+    </style>
+    <style name="Buttonbsignin">
+        <item name ="android:layout_width">wrap_content</item>
+        <item name ="android:layout_height">wrap_content</item>
+        <item name ="android:text">SGIN IN</item>
+
+
+    </style>
+    <style name="textview2">
+        <item name ="android:layout_width">wrap_content</item>
+        <item name ="android:layout_height">wrap_content</item>
+        <item name ="android:text">valet</item>
+        <item name ="android:textColor">#000000</item>
+        <item name ="android:textSize">100dp</item>
+        <item name ="android:textStyle">bold</item>
+    </style>
+
+    <style name="pagesignintextviw1">
+        <item name ="android:layout_width">wrap_content</item>
+        <item name ="android:layout_height">180dp</item>
+        <item name ="android:text">Sign In</item>
+        <item name ="android:textSize">60dp</item>
+        <item name ="android:gravity">center</item>
+        <item name ="android:textColor">@color/colorgeneral</item>
+        <item name ="android:textStyle">bold</item>
+
+    </style>
+    <style name="pagesignintextviw2">
+        <item name ="android:layout_width">wrap_content</item>
+        <item name ="android:layout_height">wrap_content</item>
+        <item name ="android:text">Email:</item>
+        <item name ="android:textSize">30dp</item>
+
+        <item name ="android:textColor">@color/colorgeneral</item>
+        <item name ="android:textStyle">italic</item>
+
+    </style>
+    <style name="pagesigininbutton">
+        <item name ="android:layout_width">wrap_content</item>
+        <item name ="android:layout_height">wrap_content</item>
+        <item name ="android:text">Login:</item>
+    </style>
+
+    <style name="pagesignuptextviw1">
+        <item name ="android:layout_width">match_parent</item>
+        <item name ="android:layout_height">50dp</item>
+        <item name ="android:text">Sign Up</item>
+        <item name ="android:textSize">30dp</item>
+        <item name ="android:gravity">center</item>
+        <item name ="android:textColor">@color/colorgeneral</item>
+        <item name ="android:textStyle">bold</item>
+
+    </style>
+    <style name="pagesiginupdittext1">
+        <item name ="android:layout_width">match_parent</item>
+        <item name ="android:layout_height">68dp</item>
+        <item name ="android:hint">First name</item>
+    </style>
+    <style name="pagesiginupdittext2">
+        <item name ="android:layout_width">match_parent</item>
+        <item name ="android:layout_height">68dp</item>
+        <item name ="android:hint">Last name</item>
+    </style>
+    <style name="pagesiginupdittext3">
+        <item name ="android:layout_width">match_parent</item>
+        <item name ="android:layout_height">68dp</item>
+        <item name ="android:hint">phone</item>
+    </style>
+    <style name="pagesiginupdittext4">
+        <item name ="android:layout_width">match_parent</item>
+        <item name ="android:layout_height">68dp</item>
+        <item name ="android:hint">Email</item>
+    </style>
+    <style name="pagesiginupdittext5">
+        <item name ="android:layout_width">match_parent</item>
+        <item name ="android:layout_height">68dp</item>
+        <item name ="android:hint">password</item>
+    </style>
+    <style name="pagesiginupdittext6">
+        <item name ="android:layout_width">match_parent</item>
+        <item name ="android:layout_height">68dp</item>
+        <item name ="android:hint">conarm password</item>
+    </style>
+    <style name="pagesiginupbutton">
+
+        <item name ="android:layout_width">wrap_content</item>
+        <item name ="android:layout_height">wrap_content</item>
+        <item name ="android:layout_marginLeft">150dp</item>
+        <item name ="android:layout_marginTop">50dp</item>
+        <item name ="android:text">register</item>
+
+
+
+    </style>
+</resources>
